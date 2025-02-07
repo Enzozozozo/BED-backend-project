@@ -1,0 +1,7 @@
+body{
+    overflow-y: hidden;
+}
+
+#authTab .nav-link {
+    color: black;
+}

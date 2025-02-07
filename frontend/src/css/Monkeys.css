@@ -1,0 +1,73 @@
+/* Custom Fonts */
+@font-face {
+    font-family: 'Intro'; 
+    src: url('../../fonts/Intro\ Black\ Alt.otf')
+} 
+@font-face {
+    font-family: 'IntegralCF'; 
+    src: url('../../fonts/Fontspring-DEMO-integralcf-bold.otf');
+}
+@font-face {
+    font-family: 'Freeman'; 
+    src: url('../../fonts/Freeman-Regular.ttf'); 
+}
+
+.monkey-wrapper {
+    padding: 0 30px;
+}
+.card{
+    position: relative;
+    height: 100%;
+    margin-bottom: 2em;
+    border: 0px;
+    padding: 20px;;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    transition: all 0.3s ease;
+}
+.card img{
+    max-width: 300px;
+    margin: 0 auto;
+}
+.card .card-text{
+    font-family: IntegralCF;
+    position: absolute;
+    left:0;
+    bottom: 0; 
+    width: 100%; 
+    background-color: rgb(0, 12, 82); 
+    color: white; 
+    padding: 0.5em; 
+    padding-left: 1em;
+    text-align: start; 
+    transition: all 0.3s ease;
+}
+.card:hover .card-text{
+    background-color: rgb(0, 21, 141); 
+}
+.card:hover{
+    transform: scale(1.05); 
+}
+
+
+.filter-bar{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #ff0000;
+}
+
+.filter-bar .btn{
+    color: #f4f4f4;
+    border: 0px;
+    font-family: IntegralCF;
+}
+
+.filter-bar button:hover, .filter-bar button.active {
+    background-color: #0056b3;
+}
+
+.hidden{
+    display: none;
+}
