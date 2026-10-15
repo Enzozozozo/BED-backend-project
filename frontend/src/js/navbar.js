@@ -86,5 +86,6 @@ function fetchUserSkillPoints() {
 }
 
 
-setInterval(fetchUserSkillPoints, 10000000);
+setInterval(fetchUserSkillPoints, 1000);
+
 
